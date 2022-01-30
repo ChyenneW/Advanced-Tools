@@ -1,0 +1,83 @@
+:root {
+  --primary-color: #44eddc;
+  --secondary-color: #e8e5e5;
+  --accent-color: #485c66;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  display: block;
+  margin: 0 auto;
+  max-width: 780px;
+}
+
+h2 {
+  font-size: 30px;
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 30px;
+  color: var(--accent-color);
+}
+
+h3 {
+  font-size: 30px;
+  margin: 4px auto;
+  display: block;
+  margin-bottom: 35px;
+  color: var(--accent-color);
+}
+
+.infoButtons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+
+#contact-me {
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, 0.1);
+  padding: 20px;
+  background-color: var(--primary-color);
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+#contact-me:hover {
+  background-color: white;
+}
+
+#about-me {
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, 0.1);
+  padding: 20px;
+  background-color: white;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+#about-me:hover {
+  background-color: var(--primary-color);
+}
+
+.myStory {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.myStory div {
+  border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  margin: 30px;
+  font-size: 25px;
+}
+
+#email {
+  color: black;
+}
