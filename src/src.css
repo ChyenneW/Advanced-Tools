@@ -36,6 +36,12 @@ h3 {
   color: var(--accent-color);
 }
 
+.intext-button {
+  background-color: #31c6b5;
+  border-color: #31c6b5;
+  margin-bottom: 5px;
+}
+
 .infoButtons {
   display: flex;
   justify-content: space-evenly;
