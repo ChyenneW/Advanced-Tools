@@ -9,14 +9,18 @@ body {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 70px;
   display: block;
   margin: 0 auto;
   max-width: 780px;
 }
 
+.indexH1 {
+  font-size: 45px;
+}
+
 h2 {
-  font-size: 30px;
+  font-size: 25px;
   display: block;
   max-width: 300px;
   margin: auto;
@@ -25,7 +29,7 @@ h2 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 25px;
   margin: 4px auto;
   display: block;
   margin-bottom: 35px;
@@ -69,16 +73,20 @@ h3 {
 
 .myStory {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .myStory div {
   border: 1px solid var(--secondary-color);
   background-color: var(--secondary-color);
-  margin: 30px;
   font-size: 25px;
+  max-width: 450px;
 }
 
 #email {
   color: black;
+}
+
+.contactImages {
+  margin-bottom: 15px;
 }
